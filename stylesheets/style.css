@@ -1,0 +1,74 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #222222;
+
+}
+
+h1{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+span{
+    color: #FFFFFF;
+}
+
+ul{
+    width: auto;
+    float: left;
+    margin-top: 8px;
+    margin-left: 200px;
+}
+
+li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+a{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+}
+
+a:hover{
+    color: #00a3e8;
+    transition: 0.5s;
+
+}
+
+.tg_icon-placing{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+.inst_icon-placing{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 150px;
+    width: 55x;
+    height: 55px;
+}
+
+.icon_href{
+    color: none;
+}
