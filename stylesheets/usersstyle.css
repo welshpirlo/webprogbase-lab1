@@ -18,7 +18,7 @@ h1{
     margin-left: 2%;
     margin-top: 10px;
     font-family: 'Open Sans', sans-serif;
-    color: #ffffff;
+    color: #00a3e8;
 }
 
 span{
@@ -51,19 +51,42 @@ a:hover{
 
 }
 
-.center {
-    margin: auto;
-    margin-top: 10%;
-    width: 50%;
-    border: none;
-    padding: 10px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 23px;
-    color: #222222; 
+.back_transition{
+    position: absolute;
+    left: 0;
+    width: 18%;
+    height: 100%;
+    background-color: #555555;
 }
 
-.center:hover {
-    transition: 0.6s;
-    font-size: 24px;
-    width: 52%;
+.back_transition:hover{
+    background-color: #999999;
+    transition: 0.5s;
 }
+
+.userblock{
+    position: absolute;
+    right: 0;
+    width: 82%;
+    height: 100%;
+    background-color: #dddddd;
+}
+
+.user_item{
+    background: #dddddd;
+    border: none;
+
+}
+.user_item:hover{
+    background: #00a3e8;
+    border: none;
+    transition: 0.5s;
+}
+
+
+
+.profileimg{
+    width: 15%;
+    height: 15%;   
+}
+

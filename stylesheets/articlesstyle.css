@@ -1,7 +1,7 @@
 body,html{
     margin: 0;
     padding: 0;
-    background-color: #333333;
+    background-color: #dddddd;
 }
 
 header{
@@ -51,63 +51,60 @@ a:hover{
 
 }
 
-.tg_icon-placing{
+.back_transition{
     position: absolute;
-    bottom: 0;
     left: 0;
-    margin-left: 2%;
-    margin-bottom: 1.5%;
-    width: 40px;
-    height: 40px;
+    width: 18%;
+    height: 100%;
+    background-color: #555555;
 }
 
-.inst_icon-placing{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin-left: 4.5%;
-    margin-bottom: 1.5%;
-    width: 40x;
-    height: 40px;
-}
-
-.icon_href{
-    color: none;
-}
-
-.bottom_line{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 90px;
+.back_transition:hover{
     background-color: #999999;
+    transition: 0.5s;
 }
 
-.logo{
-    position: absolute;
-    left: 0;
-    width: 500px;
-    height: 500px;
-    margin-left: 15%;
-    margin-top: 7%;
-}
-
-.right_block{
+.userblock{
     position: absolute;
     right: 0;
-    width: 55%;
-    height: 90%;
+    width: 82%;
+    height: 100%;
     background-color: #dddddd;
 }
 
-.homepage_text{
-    position: absolute;
-    right: 0;
-    width: 50%;
+.user_item{
+    background: #dddddd;
     border: none;
-    margin-top: 12%;
-    margin-right: 2%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 23px;
-    color: #222222; 
+
 }
+.user_item:hover{
+    background: #00a3e8;
+    border: none;
+    transition: 0.5s;
+}
+
+/*table{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}*/
+
+.hd{
+    width: 780px;
+    height: 438px;
+}
+
+table {
+    background: #dddddd;
+    max-width: 70%;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+
+  
+  td {
+    color: #669;
+    padding: 9px 8px;
+    transition: .3s linear;
+  }
