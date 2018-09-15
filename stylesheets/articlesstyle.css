@@ -73,21 +73,22 @@ a:hover{
 }
 
 .user_item{
-    background: #dddddd;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    background: #aaaaaa;
     border: none;
 
 }
+
+
+
 .user_item:hover{
     background: #00a3e8;
     border: none;
     transition: 0.5s;
 }
-
-/*table{
-    width: 100%;
-    height: 100%;
-    border-collapse: collapse;
-}*/
 
 .hd{
     width: 780px;
@@ -108,3 +109,82 @@ table {
     padding: 9px 8px;
     transition: .3s linear;
   }
+
+  .arrowleft{
+    width: 110px;
+    height: 218px;
+    position: absolute;
+    left: 0;
+    margin-left: 30%;
+    margin-top: 110%;
+}
+
+.arrowright{
+    width: 55px;
+    height: 109px;
+    position: absolute;
+    right: 0;
+    margin-top: 4%;
+    margin-right: 2%;
+}
+
+
+.user_item1{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    background: #aaaaaa;
+    border: none;
+    margin-top: 30%;
+}
+
+.user_item1:hover{
+    background: #00a3e8;
+    border: none;
+    transition: 0.5s;
+}
+
+.user_item2{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    background: #aaaaaa;
+    border: none;
+    margin-top: 30%;
+    margin-right: 50%;
+}
+
+.user_item2:hover{
+    background: #00a3e8;
+    border: none;
+    transition: 0.5s;
+}
+
+.user_item3{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    background: #aaaaaa;
+    border: none;
+    margin-right: 50%;
+}
+
+.user_item3:hover{
+    background: #00a3e8;
+    border: none;
+    transition: 0.5s;
+}
+
+.center {
+    margin: auto;
+    margin-top: 10%;
+    width: 50%;
+    border: none;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: #222222; 
+}
